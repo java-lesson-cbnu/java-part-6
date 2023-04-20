@@ -21,7 +21,7 @@ public class GomokuExample {
     }
 
     public static abstract class GomokuGame {
-        private final int[][] board = new int[GOMOKU_BOARD_SIZE][GOMOKU_BOARD_SIZE];
+        protected final int[][] board = new int[GOMOKU_BOARD_SIZE][GOMOKU_BOARD_SIZE];
         private boolean isBlackTurn = false;
 
         /**
