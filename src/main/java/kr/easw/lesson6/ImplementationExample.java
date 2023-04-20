@@ -22,7 +22,7 @@ import java.awt.*;
 public class ImplementationExample {
 
     public static void main(String[] args) {
-        new ShapeWindow(new Triangle());
+        new ShapeWindow(getShape());
     }
 
     // 해당 메서드를 수정해야 합니다.
