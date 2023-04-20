@@ -86,6 +86,7 @@ public class ImplementationExample {
                 int target = (i + 1 >= getPointCounts()) ? 0 : i + 1;
                 graphics.drawLine(x[i], y[i], x[target], y[target]);
             }
+            afterDraw(graphics, centre);
         }
 
         private void afterDraw(Graphics2D graphics2D, int[] centre) {
